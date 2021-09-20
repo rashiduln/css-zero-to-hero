@@ -1,0 +1,15 @@
+.box{
+    margin: 50px; 
+    padding: 50px; 
+    border: 10px solid transparent;   
+    height: 400px;
+
+
+    background-color: rgba(250, 0, 0, 1); 
+    background-image: url(../images/background.jpg) , url(../images/background.jpg) ; 
+    background-position: top left , bottom right;
+    background-size: 300px,  400px;
+    background-repeat: no-repeat ; 
+    background-attachment: scroll; 
+    background-clip: border-box;
+}

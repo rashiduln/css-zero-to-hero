@@ -1,0 +1,20 @@
+/* px em % */
+/* h1{
+    font-size: 50px; 
+}
+p{
+    font-size: 20px; 
+} */
+
+
+article{
+    font-size: 20px; 
+}
+
+h1{
+    font-size: 300%; 
+}
+
+p{
+    font-size: 50%; 
+}

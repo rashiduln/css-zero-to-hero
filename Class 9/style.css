@@ -1,0 +1,14 @@
+h1{
+    font-family:  Arial, Helvetica, sans-serif;
+    font-weight: bold; 
+    text-decoration: line-through;
+    color: rgba(255,0,255, 1); 
+    text-transform:uppercase;
+}
+
+p{
+    font-family: arial;
+    font-weight: 400;
+    color: #222222; 
+    text-indent: 150px;
+}

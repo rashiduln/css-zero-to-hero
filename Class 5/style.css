@@ -1,0 +1,43 @@
+/* tag selector */
+header , #mainFooter{
+    background-color: gray; 
+}
+
+/* class selector */
+.mainSection{
+    background-color: #ccc; 
+    background-image:url("img/image2.jpj ");
+}
+
+
+
+.main-menu > ul > li > a{
+    color: white; 
+}
+ 
+ 
+.main-menu ul ul a {
+    color: green; 
+}
+
+
+a[href="#home"]{
+    text-decoration: none; ;
+}
+
+
+footer nav ul li:first-child a{
+    color: yellow; 
+}
+
+footer nav ul li:last-child a{
+    color: yellow; 
+}
+
+footer nav ul li:nth-child(4) a{
+    color: green; 
+}
+
+footer nav ul li:nth-child(3) a{
+    color: white; 
+}

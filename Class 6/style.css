@@ -1,0 +1,40 @@
+a{
+    color: green; 
+}
+a:active{
+    background-color: yellow; 
+}
+
+a:focus{
+    color: red; 
+}
+a:visited{
+    background-color: blue; 
+}
+
+
+input:focus{
+    background-color: green;
+}
+
+a:after{
+    content: ' this is after text';
+
+}
+
+a:before{
+    content: ' this is before text';
+
+}
+
+h1:before{
+    content: 'h1 tag ';
+}
+
+a:hover , h1:hover{
+    color: red; 
+}
+
+input:hover{
+    background-color: rgb(255, 6, 180); 
+}

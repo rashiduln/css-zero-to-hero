@@ -1,0 +1,27 @@
+.box{
+    background: gray;  
+    display: inline-block; 
+    width: 400px; 
+    height: 400px; 
+    
+
+    margin: 100px 50px  ;  
+
+    padding:  50px ; 
+
+
+    /* border-width: 15px 10px 5px 20px; 
+    border-top-width: 50px; 
+    border-right-width: 30px; 
+    border-left-width: 30px; 
+    border-style: solid dotted dashed double; 
+    border-top-style: solid ; 
+    border-right-style: groove;
+    border-color: red; 
+    border-top-color: green;  */
+
+    border: 10px solid green; 
+    border-radius: 50%; 
+
+}
+ 

@@ -1,0 +1,16 @@
+.box{
+    background: gray;  
+    display: inline-block; 
+    width: 300px; 
+  
+
+    margin: 100px 50px 80px ; 
+
+    padding-top: 50px; 
+    padding-bottom: 40px; 
+    padding-right: 50px; 
+    padding-left: 40px; 
+
+    padding: 100px 50px 80px; 
+}
+ 
