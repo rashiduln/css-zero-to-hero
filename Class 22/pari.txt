@@ -1,0 +1,18 @@
+Add CSS in HTML
+Selector
+Comments
+Font Size
+Font Style
+Text decoration
+Line Height 
+Font Weight 
+Height 
+Width
+Margin 
+Padding
+Border 
+Border Radius 
+Outline
+Background 
+Display-Block, Inline 
+Overflow

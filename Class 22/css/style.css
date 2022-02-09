@@ -1,0 +1,258 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0; 
+    padding: 0; 
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 16px;  
+    line-height: 1.5; 
+    color: #474747; 
+}
+h1, h2, h3, h4, h5, h6{
+    line-height: 1.2; 
+}
+
+
+/* General CSS */
+h2 {
+    font-size: 36px; 
+}
+h3 {
+    font-size: 20px; 
+    font-weight: 500; 
+}
+.container{
+    width: 90%; 
+    max-width: 1200px;  
+    margin-left: auto; 
+    margin-right: auto;  
+}
+.container::after{
+    content:'';
+    display: block; 
+    clear:both; 
+}
+.one_half{
+    width: 50%;  
+    float: left;  
+    padding: 0 15px ; 
+  
+}
+.one_third{
+    width: 33.33%; 
+    float: left; 
+    padding:0 15px; 
+}
+.col_2_5{
+    width: 40%; 
+    float: left; 
+    padding: 0 15px; 
+}
+.col_3_5{
+    width: 60%; 
+    float: left; 
+    padding: 0 15px; 
+}
+.btn{
+    background-color: red; 
+    color: #fff;
+    padding: 15px 30px; 
+    display: inline-block; 
+    text-decoration: none; 
+    font-weight: bold;
+
+   
+}
+.btn_second{
+    background-color: #F23838;
+}
+.action_set .btn {
+    min-width: 300px; 
+}
+
+.action_set span{
+    padding: 15px; 
+    display: inline-block; 
+}
+.text-right {
+    text-align: right; 
+}
+.text-center{
+    text-align: center; 
+}
+.btn:hover {
+    opacity: 0.8;
+}
+a {
+    text-decoration: none;
+}
+section {
+    padding: 40px 0; 
+}
+
+.section_title {
+    width: 90%; 
+    margin: 0 auto 40px; 
+}
+/* Header CSS */
+header { 
+    padding: 20px 0; 
+}
+header .btn {
+    margin-top: 15px; 
+}
+
+
+/* header_banner css */
+.header_banner{
+    padding: 30px 0; 
+    background: gray url(../images/super-roofers-hero.jpg) center center;
+
+    background-size: cover;
+}
+.header_banner .hanner_content *{
+    color: #fff; 
+}
+
+.header_banner  h1{
+    font-size: 58px; 
+}
+.header_banner p {
+    font-size: 18px; 
+}
+
+.sign_up_form_area{
+    background: #fff;
+    border-radius: 10px; 
+    overflow: hidden;
+    max-width: 380px; 
+    width: 100%; 
+    float: right; 
+}
+.form_header{
+    background-color: #004e6d; 
+    padding: 20px; 
+    text-align: center; 
+    color: #fff; 
+    font-size: 20px; 
+    font-weight: bold; 
+    
+}
+.form_body {
+    padding: 20px; 
+}
+.form_body label{
+    display: block; 
+    font-size: 14px; 
+}
+.form_body input[type="text"], 
+.form_body input[type="email"], 
+.form_body textarea  {
+    display: inline-block; 
+    width: 100%;   
+    max-width: 100%; 
+    padding: 10px; 
+    background: #EBEBEB;
+    border: 1px solid #dfdfdf; 
+    margin-bottom: 20px; 
+    margin-top: 5px; 
+}
+
+
+.form_body input[type="submit"]{
+    border: none; 
+    display: block; 
+    width: 100%; 
+}
+
+
+/*features CSS */
+.features{
+    padding: 10px 0; 
+    background:#474747 ;
+    color: #fff; 
+}
+
+.info_box {
+    padding: 30px; 
+}
+.info_box  h3{
+    margin-bottom: 20px; 
+    font-weight: 700;
+}
+
+/* About css */
+.about img {
+    border-radius: 5px; 
+}
+
+/* Services CSS */
+.services {
+    background-color: #F6F6F6;
+}
+
+
+/* Call to action css */
+
+.call-to-action {
+    background-color: #474747;
+    color: #fff; 
+}
+.call-to-action .section_title {
+    margin-bottom: 30px; 
+}
+
+.call-to-action .section_title h2{
+    margin-bottom: 0px; 
+    margin-top: 0; 
+}
+
+/* testimonial css*/
+
+.testimonial {
+    border: 1px solid #dfdfdf; 
+    padding: 20px; 
+    margin-bottom: 30px; 
+}
+.testimonial_content {
+    margin-bottom: 30px; 
+}
+
+/*WhyChooseUs */
+
+.WhyChooseUs .info_box {
+    border: 1px solid #dfdfdf; 
+    padding: 20px; 
+}
+
+/*Footer */
+
+.mainFooter {
+    background-color: #474747;
+    color: #fff; 
+    padding: 50px 0; 
+}
+.mainFooter a  {
+    color: #dfdfdf;
+    text-decoration: underline;
+}
+.widget{
+    border: 1px solid #dfdfdf; 
+    padding: 30px; 
+    max-width: 400px; 
+    margin: 10px auto; 
+}
+.copyright {
+    padding-top: 50px; 
+}
+
+.sticky_call_to_action{
+    padding: 20px 0; 
+    background-color: #000;
+    position: sticky; 
+    bottom: 0; 
+    left: 0; 
+    width: 100%; 
+}
